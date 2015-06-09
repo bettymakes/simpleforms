@@ -1,0 +1,22 @@
+// Variables :: Typography
+
+// Font-family
+$font-family-sans-serif: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-serif';
+$font-family-seif: 'Georgia', 'Serif';
+
+// Font-sizes
+// Using 1.414 Augmented Fourth formula from type-scale.com
+$font-size-base: 16px;
+$font-size-h1: 3.998rem;
+$font-size-h2: 2.827rem;
+$font-size-h3: 1.999rem;
+$font-size-h4: 1.414rem;
+$font-size-h5: 1rem;
+$font-size-h6: 0.707rem;
+$font-size-p: 1rem;
+
+// Line-height
+$line-height-base: 1.5;
+$line-height-px: ceil($font-size-base*$line-height-base);
+$line-height-px-half: ceil($line-height-px/2);
+$line-height-header: $line-height-base*0.8;

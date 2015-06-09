@@ -1,0 +1,19 @@
+.container {
+  @include clearfix;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gutter-half;
+  padding-right: $gutter-half;
+}
+
+@include breakpoint-tablet() {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@include breakpoint-desktop() {
+  .container {
+    max-width: 970px;
+  }
+}

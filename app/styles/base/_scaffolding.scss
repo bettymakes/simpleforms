@@ -1,0 +1,15 @@
+//Base :: Scaffolding
+
+// ONLY HTML & BODY is styled here
+html {
+  font-size: $font-size-base;
+  font-family: $font-family-sans-serif;
+  line-height: $line-height-base;
+}
+
+html, body {
+  min-width: $screen-phone;
+  height: 100%;
+  width: 100%;
+  color: $color-dark-grey;
+}

@@ -1,0 +1,53 @@
+// Modules :: Form Elements
+
+.control-label {
+  color: $color-mid-grey;
+  padding-top: $keyline-base-half;
+}
+
+.form-label__main {
+  width: 100%;
+  font-size: $font-size-form-label__main;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border-radius: 0;
+  &:focus {
+    border-color: #66E99D;
+  }
+}
+
+.focus-label {
+  @include transition(all 0.2s ease);
+  @include transform(translateY(-10px));
+  position: absolute;
+  font-size: $font-size-focus-label;
+  bottom: 100%;
+  left: 7px;
+  margin: 0;
+  opacity: 0;
+  color: $color-green;
+}
+
+.focus-label.is-visible {
+  @include transform(translateY(0));
+  opacity: 1;
+}
+
+.text-field-row {
+  [class*="col-"] {
+    padding-left: $keyline-base-half;
+    padding-right: $keyline-base-half;
+  }
+}
+
+.form-section-title {
+  color: $color-light-grey;
+  font-size: $font-size-form-section-title;
+  margin-top: $gutter-triple;
+  margin-bottom: $gutter-half;
+  font-weight: bold;
+  text-transform: uppercase;
+}

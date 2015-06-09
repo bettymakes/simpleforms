@@ -1,0 +1,30 @@
+// Mixins :: Breakpoints
+@mixin breakpoint-phone() {
+  @media screen and (min-width: $screen-phone){
+    @content;
+  }
+}
+
+@mixin breakpoint-phone-lg() {
+  @media screen and (min-width: $screen-phone-lg) {
+    @content;
+  }
+}
+
+@mixin breakpoint-tablet() {
+  @media screen and (min-width: $screen-tablet) {
+    @content;
+  }
+}
+
+@mixin breakpoint-desktop() {
+  @media screen and (min-width: $screen-desktop) {
+    @content;
+  }
+}
+
+@mixin breakpoint-desktop-lg() {
+  @media screen and (min-width: $screen-desktop-lg) {
+    @content;
+  }
+}

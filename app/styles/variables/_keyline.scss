@@ -1,0 +1,11 @@
+// Variables :: Keyline
+
+$keyline-base: 4px;
+$keyline-base-half: ceil($keyline-base/2);
+$keyline: ceil($keyline-base*2);
+$keyline-double: ceil($keyline*2);
+$gutter: ceil($keyline*3);
+$gutter-half: ceil($gutter/2);
+$gutter-double: ceil($gutter*2);
+$gutter-triple: ceil($gutter*3);
+$gutter-quad: ceil($gutter*4);

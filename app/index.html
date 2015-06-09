@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>simple form</title>
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endbuild -->
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    
+  </head>
+
+  <body>
+      <section class="container">
+        <h1>Simple Forms</h1>
+        <hr>
+        <form class="form-horizontal">
+          <h2 class="form-section-title">General Information About You</h2>
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <label class="control-label form-label__main">Full name</label>
+            </div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-4">
+                  <label class="focus-label">First name</label>
+                  <input class="form-control" type="text" placeholder="First name"></input>
+                </div>
+                <div class="col-sm-4">
+                  <label class="focus-label">Middle name</label>
+                  <input class="form-control" type="text" placeholder="Middle name"></input>
+                </div>
+                <div class="col-sm-4">
+                  <label class="focus-label">Last name</label>
+                  <input class="form-control" type="text" placeholder="Last Name"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <label class="control-label form-label__main">Date of Birth</label>
+            </div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-2">
+                  <label class="focus-label">Year</label>
+                  <input class="form-control" type="text" placeholder="YYYY"></input>
+                </div>
+                <div class="col-sm-1">
+                  <label class="focus-label">Month</label>
+                  <input class="form-control" type="text" placeholder="MM"></input>
+                </div>
+                <div class="col-sm-1">
+                  <label class="focus-label">Day</label>
+                  <input class="form-control" type="text" placeholder="DD"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <label class="control-label form-label__main">Sex</label>
+            </div>
+            <div class="col-sm-8">
+              <div class="radio-row">
+                <label class="radio-inline">
+                  <input type="radio" value="female" name="form[sex]">
+                  Female
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" value="male" name="form[sex]">
+                  Male
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <label class="control-label form-label__main">Social Insurance #</label>
+            </div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-4">
+                  <label class="focus-label">Social Insurance #</label>
+                  <input class="form-control" type="text" placeholder="Social Insurance Number"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <label class="control-label form-label__main">Address</label>
+            </div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-3">
+                  <label class="focus-label">Number</label>
+                  <input class="form-control" type="text" placeholder="Number"></input>
+                </div>
+                <div class="col-sm-6">
+                  <label class="focus-label">Street name</label>
+                  <input class="form-control" type="text" placeholder="Street name"></input>
+                </div>
+                <div class="col-sm-3">
+                  <label class="focus-label">Apartment Unit</label>
+                  <input class="form-control" type="text" placeholder="Apartment Unit"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-6">
+                  <label class="focus-label">City</label>
+                  <input class="form-control" type="text" placeholder="City"></input>
+                </div>
+                <div class="col-sm-6">
+                  <label class="focus-label">Postal code</label>
+                  <input class="form-control" type="text" placeholder="Postal code"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-6">
+                  <label class="focus-label">Country</label>
+                  <select class="form-control">
+                    <option value="cdn">Canada</option>
+                    <option value="usa">United States</option>
+                    <option value="earth">Earth</option>
+                    <option value="mars">Mars</option>
+                  </select>
+                </div>
+                <div class="col-sm-6">
+                  <label class="focus-label">Province</label>
+                  <select class="form-control">
+                    <option value="ont">Ontario</option>
+                    <option value="qc">Quebec</option>
+                    <option value="ab">Alberta</option>
+                    <option value="bc">Britich Columbia</option>
+                    <option value="sk">Saskatchewan</option>
+                    <option value="mb">Manitoba</option>
+                    <option value="nb">New Brunswick</option>
+                    <option value="ns">Nova Scotia</option>
+                    <option value="nfld">Newfoundland</option>
+                    <option value="pei">Prince Edward island</option>
+                    <option value="nv">Nunavut</option>
+                    <option value="yk">Yukon</option>
+                    <option value="nw">Northwest Territories</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-3">
+              <label class="control-label form-label__main">Marital Status</label>
+            </div>
+            <div class="col-sm-8">
+              <div class="text-field-row">
+                <div class="col-sm-6">
+                    <label class="focus-label">Marital Status</label>
+                    <select class="form-control">
+                      <option value="singe">Single</option>
+                      <option value="married">Married</option>
+                      <option value="div">Divorced</option>
+                      <option value="wid">Widowed</option>
+                      <option value="sep">Separated</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="form-section-title">ID Verification</h2>
+          <p>Please select all that apply.</p>
+        </form>
+      </section>
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
